@@ -12,7 +12,7 @@ Reacts All Dependies as required then we can added here
 
 The entry point for a user is a website which is available under the address: Project Ul Photo/Video
 
-GROUP MEMBERS
+Team MEMBERS
 
 1. Gurank Varma
 
