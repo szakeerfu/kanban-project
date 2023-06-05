@@ -1,25 +1,61 @@
-KANBAN BOARD PROJECT
+# KANBAN BOARD
 
-This is a simple implementation of a Kanban Board, a tool that helps visualize and manage work Originally it was first created in Toyota automotive, but nowadays it's widely used in software development
+## Description
 
-A Kanban Board is usually made of 3 columns -TODO, InProgress & Done in each column there are Post-it notes that represents task and their status
+A Kanban board is a visual project management tool that helps teams visualize and track their work. It is typically made up of a physical or digital board that is divided into columns, each of which represents a stage in the team's workflow. The columns are usually labeled with categories like "To Do", "In Progress", and "Done".
 
-As already stated this project is an implementation of such board and made of 3 separate Docker containers that
+The Kanban board is used to track work items as they move through each stage of the workflow. Each work item is represented by a card that is placed on the board, and team members can move the cards from one column to another as they work on them. This helps the team to see at a glance which tasks are in progress, which tasks are waiting, and which tasks have been completed.
 
-holds
+Kanban boards are often used in agile software development, but they can be used in any team or project that involves workflow management. They are particularly useful for teams that want to visualize their work, identify bottlenecks, and continuously improve their processes.
 
-Reacts All Dependies as required then we can added here
+## Features
 
-The entry point for a user is a website which is available under the address: Project Ul Photo/Video
+- Create and manage tasks using a drag-and-drop interface
+- View tasks in a Kanban-style board with columns for "To Do", "In Progress", and "Done"
+- Edit and delete tasks as needed
+- Assign tasks to team members
+- View detailed information about each task, including its due date, priority, and description
 
-Team MEMBERS
+* Create and manage tasks using a drag-and-drop interface
+* View tasks in a Kanban-style board with columns for "To Do", "In Progress", and "Done"
+* Edit and delete tasks as needed
+* Assign tasks to team members
+* View detailed information about each task, including its due date, priority, and description
 
-1. Gurank Varma
+## Tech Stack
 
-2. S Zakir Hussain
+- ReactJS
+- React beautiful DnD
+- Recoil
+- Material UI
+- React Icons
+- React router
 
-3. Aniket Gawali
+* ReactJS
+* React beautiful DnD
+* Recoil
+* Material UI
+* React Icons
+* React router
 
-4. Hrishikesh Shinde
+## Installation
 
-5. Ashish Kumar Yadav
+To install and run the application locally, follow these steps:
+
+1. Clone this repository to your local machine
+2. Run npm install to install all dependencies
+3. Run npm run dev to start the development server
+4. Open https://kanban-lmqs.onrender.com in your browser to view the application
+5. Open http://localhost:5173/ in your browser to view the application
+
+## Collaborators
+
+S Zakir Hussain
+
+Aniket Gawali
+
+Hrishikesh shinde
+
+Gurank Verma
+
+Ashish Kumar Yadav
