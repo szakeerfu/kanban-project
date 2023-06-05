@@ -7,13 +7,7 @@ function App() {
     <div className="App">
       hii
       <h1>
-        new repo
-        kjlkjlkj
-        zakeerhussian
-        add merged
-        hii ashish
-        hii zakir
-        second add
+        hii all
       </h1>
 
     </div>
