@@ -1,0 +1,29 @@
+.task {
+    margin-bottom: 16px;
+}
+
+.task h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.task p {
+    margin-bottom: 4px;
+}
+
+.task-form {
+    margin-top: 16px;
+}
+
+.task-form h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.task-form .MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.task-form .MuiButton-root {
+    margin-top: 16px;
+}
