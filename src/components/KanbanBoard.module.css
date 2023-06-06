@@ -27,3 +27,21 @@
 .task-form .MuiButton-root {
     margin-top: 16px;
 }
+.task {
+    /* Default styles for tasks */
+    background-color: white;
+    /* ... other styles */
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
