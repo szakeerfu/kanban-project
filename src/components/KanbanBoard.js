@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import { Grid } from "@mui/material";
 import { Paper, Button, TextField } from "@mui/material";
+import Fab from '@mui/material/Fab';
+import EditIcon from '@mui/icons-material/Edit';
+
 import styles from './KanbanBoard.module.css'
+
+
 
 const KanbanBoard = () => {
     const [boardData, setBoardData] = useState({
@@ -76,6 +81,15 @@ const KanbanBoard = () => {
         }));
     };
 
+    
+    
+    const openDescriptionBox = () => {
+      return (
+        <div>openDescriptionBox</div>
+      )
+    }
+    
+
     return (
         <Grid container spacing={2}>
             <Grid item xs={4}>
@@ -91,6 +105,13 @@ const KanbanBoard = () => {
                             <Button variant="outlined" onClick={() => moveTask("todo", "inProgress", task.id)}>
                                 Start
                             </Button>
+
+                            <div className={styles.EditIcon}>
+                                <Fab onClick={openDescriptionBox} color="green" aria-label="edit" size="small">
+                                    <EditIcon style={{ fontSize: 20 }} />
+                                </Fab>
+                            </div>
+
                         </div>
                     ))}
                     <div className={styles["task-form"]}>
