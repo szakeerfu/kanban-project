@@ -1,24 +1,27 @@
-.parentNav{
+.parentNav {
     display: flex;
-    width: 100%;
+    max-width: auto;
     justify-content: space-between;
     margin-right: 10%;
     padding: 10px;
-    height: 20%;
+    height: 50%;
     border: solid 1px grey;
     background-color: rgb(63, 62, 62);
     color: rgb(236, 239, 240);
     margin-right: 0px;
 }
-.star{
+
+.star {
     margin-right: 20px;
     margin-top: 2px;
     font-weight: bold;
 }
-.leftComponent{
+
+.leftComponent {
     display: flex;
 }
-.board{
+
+.board {
     width: fit-content;
     border: 1px solid rgb(236, 239, 240);
     background-color: rgb(236, 239, 240);
@@ -27,36 +30,42 @@
     color: rgb(65, 62, 62);
     padding: 4px;
 }
-.downArrow{
+
+.downArrow {
     font-weight: bold;
     font-size: x-large;
     margin-left: 5px;
     margin-top: 5px;
     color: rgb(236, 239, 240);
 }
-.homeTask{
+
+.homeTask {
     margin-right: 20px;
     font-weight: bolder;
     font-style: normal;
     margin-top: 2px;
 }
-.workspace{
+
+.workspace {
     margin-right: 20px;
     font-style: calc();
     font-weight: 500;
     margin-top: 2px;
 }
-.rightComponent{
+
+.rightComponent {
     display: flex;
     justify-content: space-between;
     margin-right: 50px;
     font-weight: bold;
 }
-.rightChild{
+
+.rightChild {
     margin-right: 20px;
     margin-top: 3px;
 }
-.profile{
+
+.profile {
     width: 30px;
     border: 1px solid rgb(236, 239, 240);
     border-radius: 30px;
