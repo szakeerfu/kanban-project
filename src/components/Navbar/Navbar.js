@@ -26,7 +26,7 @@ function Navbar() {
                     <IoIosArrowDropdown />
                 </div>
             </div>
-            <div className={styles.rightComponent}>
+           <div className={styles.rightComponent}>
                 <div className={styles.rightChild}>
                     <SiPowerautomate /> Power Ups
                 </div>

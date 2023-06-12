@@ -1,4 +1,4 @@
- 
+
 
 
 
@@ -11,7 +11,8 @@ import Board from "./components/Board/Board";
 import "./App.css";
 import Editable from "./components/Editabled/Editable";
 import Navbar from "./components/Navbar/Navbar";
- 
+import { useNavigate } from "react-router-dom";
+
 
 function App() {
   const [boards, setBoards] = useState(
@@ -71,7 +72,15 @@ function App() {
     setBoards(tempBoards);
   };
 
+  const navigate = useNavigate(); ///1
+
   const dragEnded = (bid, cid) => {
+    // Change the URL using the history object
+    let name1 = boards.find((item) => item.id === bid).title;
+    let cardname = boards.find((item) => item.id === bid).cards.find((item) => item.id === cid).title;
+    navigate(`/${name1}/${cardname}`);  //3
+
+
     let s_boardIndex, s_cardIndex, t_boardIndex, t_cardIndex;
     s_boardIndex = boards.findIndex((item) => item.id === bid);
     if (s_boardIndex < 0) return;
@@ -165,4 +174,3 @@ function App() {
 }
 
 export default App;
- 
