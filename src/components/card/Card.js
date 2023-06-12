@@ -13,7 +13,7 @@ function Card(props) {
   const { id, title, date, tasks, labels } = props.card;
 
   const formatDate = (value) => {
-    if (!value) return "";
+    if (!value) return " ";
     const date = new Date(value);
     if (!date) return "";
 
